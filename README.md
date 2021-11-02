@@ -8,7 +8,7 @@ https://radimrehurek.com/gensim/index.html
 https://taku910.github.io/mecab/
 
 # 概要説明
-## _input
+### _input
 → 解析対象のファイルを格納するディレクトリ
 
 ##_library
