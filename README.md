@@ -7,11 +7,11 @@ https://radimrehurek.com/gensim/index.html
 ・MeCab: Yet Another Part-of-Speech and Morphological Analyzer
 https://taku910.github.io/mecab/
 
-## 概要説明
-###_input
+# 概要説明
+##_input
 → 解析対象のファイルを格納するディレクトリ
 
-###_library
+##_library
 → ライブラリを呼び出すプログラムが格納されたディレクトリ
 ・gensim_lib.py
 → gensimのメソッドを呼び出すためのプログラム
@@ -22,31 +22,31 @@ https://taku910.github.io/mecab/
 ・user_stopword.py
 → HTMLタグを除去するためのストップワード用のプログラム
 
-###_output
+##_output
 → 解析結果を格納するディレクトリ
 
-###corpus
+##corpus
 → トピックに関するファイルが格納されるディレクトリ
 
-###similarity
+##similarity
 → gensimのコーパスが格納されるディレクトリ
 
-###topic
+##topic
 → トピックに関するファイルが格納されるディレクトリ
 トピックの単語分布:*_words.txt
 語分布の生成確率 : *probability.txt
 文書に対する割当確率 : *_topic_allot
 文書に対して最も生成確率が高かったTOPIC :*_topic_max_allot
 	
-###wakachi
+##wakachi
 → 形態素解析後の 分かち書きファイルを格納するディレクトリ
 
-###_simulationConf
+##_simulationConf
 実験を行う際には「corpus」「topic」「wakachi」「allot」の
 4ディレクトリに対して、conf.pyの"simulation_Name"で指定した
 ディレクトリ名と同じフォルダを作成してから実験すること
 
-###analyze
+##analyze
 → 特定のファイルからわかち書きを生成するプログラムが格納されたディレクトリ
 ・data_analyze.py
 → 分かち書きプログラム
@@ -54,7 +54,7 @@ https://taku910.github.io/mecab/
 ・make_analyzedata.py
 → 実行プログラム
 	
-###similarity
+##similarity
 → 類似度を計算するプログラム
 ・similarity.py
 → 共通メソッドが格納されたプログラム
@@ -68,7 +68,7 @@ https://taku910.github.io/mecab/
 ・word2vec_similarity.py
 → word2vecによる特定の単語に対する類似度上位の単語を生成
 	
-###topic
+##topic
 ・topic.py
 →  共通メソッドが格納されたプログラム
 	
