@@ -1,5 +1,6 @@
 # Python-NLP
 
+## 使用ライブラリ
 ・gensim
 https://radimrehurek.com/gensim/index.html
 
